@@ -49,11 +49,6 @@ class Bag extends React.Component {
         return this.props.itemsInCart.map(res => x += res.quantity, x = 0).reverse()[0]
     }
 
-    updateAmountToPay() {
-        this.forceUpdate();
-    }
-
-
     render() {
 
         let amountToPay = 0;
