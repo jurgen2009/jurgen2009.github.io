@@ -318,7 +318,7 @@ class App extends React.Component {
                             }
                             />
 
-                            <Route path="/bag" render={() =>
+                            <Route path={`/bag`} render={() =>
                                 <Bag
                                     data={this.state}
                                     itemsInCart={this.state.itemsInCart}
