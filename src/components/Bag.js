@@ -276,8 +276,8 @@ class Bag extends React.Component {
                     <button id="bagOrderButton"
                             onClick={() => {
                                 this.addCartToOrder();
-                                localStorage.removeItem('itemsInCart')
-                                callAlert('success', 'your order put in process!')
+                                localStorage.clear()
+                                callAlert('success', 'your order put in process! (localStorage is cleared, user session is over)')
                             }}>{'ORDER'}</button>
 
                 </div>
