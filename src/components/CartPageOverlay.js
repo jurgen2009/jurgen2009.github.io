@@ -196,13 +196,12 @@ class CartPageOverlay extends React.Component {
                                 return null
                             })}{amountToPay.toFixed(2)}{' '}{(this.props.itemsInCart[0]) ? this.props.itemsInCart[0].itemCurrency : ''}</div>
                         </div>
-                        <div className="totals2"><Link to="/bag" className="viewLink"
-                                                       onClick={() => {this.handlerOpenMyBag(false)}}>
+                        <div className="totals2"><Link to="/bag" className="viewLink">
                             <button id="viewBag"><span className="viewBagText">{"VIEW BAG"}</span></button>
                         </Link>
                             <button id="checkout"
                                     className="viewLink"
-                                    onClick={() =>  {document.location.reload(localStorage.removeItem('itemsInCart')) }}
+                                    onClick={() =>  {localStorage.removeItem('itemsInCart')}}
                                     disabled={this.props.itemsInCart.length === 0} >
                                 <span className="checkOutText">{"CHECK OUT"}</span>
                             </button>
