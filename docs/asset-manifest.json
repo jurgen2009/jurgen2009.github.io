@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7884f344.chunk.css",
+    "main.js": "/static/js/main.5ce71da0.chunk.js",
+    "main.js.map": "/static/js/main.5ce71da0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3a90793c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3a90793c.js.map",
+    "static/js/2.ab21c700.chunk.js": "/static/js/2.ab21c700.chunk.js",
+    "static/js/2.ab21c700.chunk.js.map": "/static/js/2.ab21c700.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7884f344.chunk.css.map": "/static/css/main.7884f344.chunk.css.map",
+    "static/js/2.ab21c700.chunk.js.LICENSE.txt": "/static/js/2.ab21c700.chunk.js.LICENSE.txt",
+    "static/media/ArrowDown.85a78ce5.svg": "/static/media/ArrowDown.85a78ce5.svg",
+    "static/media/ArrowUp.22c7531e.svg": "/static/media/ArrowUp.22c7531e.svg",
+    "static/media/Backout.a06b8798.svg": "/static/media/Backout.a06b8798.svg",
+    "static/media/CardHover.fed9eb10.svg": "/static/media/CardHover.fed9eb10.svg",
+    "static/media/Cart.1efb4f6c.svg": "/static/media/Cart.1efb4f6c.svg",
+    "static/media/Cart2.5d9329b9.svg": "/static/media/Cart2.5d9329b9.svg",
+    "static/media/Dollar.60a0215d.svg": "/static/media/Dollar.60a0215d.svg",
+    "static/media/OutOfStock.8fd89e8e.svg": "/static/media/OutOfStock.8fd89e8e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a90793c.js",
+    "static/js/2.ab21c700.chunk.js",
+    "static/css/main.7884f344.chunk.css",
+    "static/js/main.5ce71da0.chunk.js"
+  ]
+}
