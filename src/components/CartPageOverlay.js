@@ -196,7 +196,7 @@ class CartPageOverlay extends React.Component {
                                 return null
                             })}{amountToPay.toFixed(2)}{' '}{(this.props.itemsInCart[0]) ? this.props.itemsInCart[0].itemCurrency : ''}</div>
                         </div>
-                        <div className="totals2"><Link to="/bag" className="viewLink">
+                        <div className="totals2"><Link to="{`/bag`}" className="viewLink">
                             <button id="viewBag"><span className="viewBagText">{"VIEW BAG"}</span></button>
                         </Link>
                             <button id="checkout"
